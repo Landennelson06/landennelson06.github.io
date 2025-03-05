@@ -15,3 +15,4 @@ Right now, we just have the __[CLUSTER DOCS](/cluster-docs)__
 | [Identifying your cluster](/cluster-docs/identify-cluster/) |
 | [Backing up your cluster](/cluster-docs/backing-up-your-cluster) |
 | [Programming your new cluster](/cluster-docs/program-new-cluster) |
+| [All keys lost and jumping into service mode](/cluster-docs/service-mode-all-keys-lost/) |
