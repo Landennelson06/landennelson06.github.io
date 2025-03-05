@@ -7,9 +7,10 @@ permalink: /cluster-docs/
 So, you want to do the swap? Great! Here's your options
 
 * Have someone do it for you
-    * I'd be more than happy to program it for you! Just __Email me__
+    * I'd be more than happy to program it for you! 
+        * Contact us at {%- include ig.html -%} <br>
         * By having me program your cluster, you're supporting these docs. 
-    * Find someone local (pretty hard)
+    * Find someone local
 * Want to do it yourself?
     * That's cool too! That's why these docs are here.
     * If your car is immo deleted:
@@ -22,3 +23,5 @@ So, you want to do the swap? Great! Here's your options
         * Awesome! This guide is perfect for you
 
 Continue onto [Getting Started](/cluster-docs/getting-started)
+
+

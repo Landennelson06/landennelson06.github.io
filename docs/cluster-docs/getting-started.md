@@ -8,14 +8,10 @@ permalink: /cluster-docs/getting-started
 ## What do I need to know?
 * A very solid understanding of circuts, processors, EEPROM,etc
 * A careful attitude. Doing anything wrong can permanently damage your car!
-* Some information for the purposes of this swap:
-    * The Clusters's EEPROM is encrypted. What does that mean?
-        * We're going to pull the EEPROM physically, only to be safe.
-    * What is Service mode?
-        * Service mode is a mode on a VW cluster. It allows us to read and write immo and key data, even without a key. 
+
 
 ## __Sound too daunting?__
-* __Email me!__
+* Contact me at {%- include ig.html -%} <br>
 * I'd be more than happy to program your cluster.
 
 ## Sourcing your cluster

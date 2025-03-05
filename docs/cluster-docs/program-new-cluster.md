@@ -4,8 +4,9 @@ description: Instructions for your new cluster
 permalink: /cluster-docs/program-new-cluster
 ---
 
-Start by taking the cluster apart
-    * Follow the dissassembly steps in [Identify your cluster](/cluster-docs/identify-cluster)
+Start by taking the cluster apart 
+* Follow the dissassembly steps in [Identify your cluster](/cluster-docs/identify-cluster)
+
 ---
 
 ## Back up your Encrypted EEPROM (For the new cluster)

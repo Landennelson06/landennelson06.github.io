@@ -36,5 +36,6 @@ See the table below:
 5. There you go! There's your identification. 
 
 ### Want to be awesome?
-Email me your clusters part number, car it came out of, and pictures of the cluster! 
+Contact us at {%- include ig.html -%} <br>
+Send me your clusters part number, car it came out of, and pictures of the cluster! 
 Be sure to include a picture of the gauge faces, EEPROM chip, and processor.

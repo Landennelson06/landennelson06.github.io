@@ -7,6 +7,8 @@ permalink: /
 This is a place to document anything I learn. 
 Right now, we just have the __[CLUSTER DOCS](/cluster-docs)__
 
+Want me to program you a new dash? 
+Contact {%- include ig.html -%} <br>
 
 | Name |
 |-------|
