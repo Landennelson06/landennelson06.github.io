@@ -3,8 +3,6 @@ title: Getting Started with your cluster swap
 description: Getting started with your mk5 or mk6 cluster swap!
 permalink: /cluster-docs/getting-started
 ---
- > WARNING: The information in these docs can cause major damage to your car, causing no-starts and other issues. I am NOT responsible for any damage done by this guide. 
-
 ## What do I need to know?
 * A very solid understanding of circuts, processors, EEPROM,etc
 * A careful attitude. Doing anything wrong can permanently damage your car!

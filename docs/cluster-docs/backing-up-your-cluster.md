@@ -3,8 +3,6 @@ title: Backing up your cluster
 description: How to back up your current cluster
 permalink: /cluster-docs/backing-up-your-cluster
 ---
- > WARNING: The information in these docs can cause major damage to your car, causing no-starts and other issues. I am NOT responsible for any damage done by this guide. \
- > ⚠NONE OF THIS HAS BEEN TESTED YET!⚠
 
 
 1. __Remove the cluster__

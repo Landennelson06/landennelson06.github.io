@@ -3,8 +3,6 @@ title: Identifying a cluster
 description: How to identify a cluster 
 permalink: /cluster-docs/identify-cluster/
 ---
- > WARNING: The information in these docs can cause major damage to your car, causing no-starts and other issues. I am NOT responsible for any damage done by this guide. \
- > ⚠ NONE OF THIS HAS BEEN TESTED YET!⚠
 
 ## How to identify my cluster?
 See the table below:
