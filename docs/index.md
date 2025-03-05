@@ -10,7 +10,8 @@ Right now, we just have the __[CLUSTER DOCS](/cluster-docs)__
 
 | Name |
 |-------|
-| [Getting Started](/cluster-docs/) |
+| [I want to do the swap, what are my options?](/cluster-docs/)
+| [Getting Started](/cluster-docs/getting-started) |
 | [Removing your cluster](cluster-docs/removing-your-cluster/) |
 | [Identifying your cluster](/cluster-docs/identify-cluster/) |
 | [Backing up your cluster](/cluster-docs/backing-up-your-cluster) |

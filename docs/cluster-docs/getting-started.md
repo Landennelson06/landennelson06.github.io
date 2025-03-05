@@ -1,7 +1,7 @@
 ---
 title: Getting Started with your cluster swap
 description: Getting started with your mk5 or mk6 cluster swap!
-permalink: /cluster-docs/
+permalink: /cluster-docs/getting-started
 ---
  > WARNING: The information in these docs can cause major damage to your car, causing no-starts and other issues. I am NOT responsible for any damage done by this guide. 
 
@@ -16,15 +16,11 @@ permalink: /cluster-docs/
 
 ## __Sound too daunting?__
 * __Email me!__
-*  I'll get you sorted. The email is at the bottom of the page. 
+* I'd be more than happy to program your cluster.
 
-## Sourcing your cluster & Identifying work needed
+## Sourcing your cluster
 Now, before we start, we must understand what the types of VW clusters and IMMO.
 For the purposes of this explanation, this post on [Mk5GolfGTI](https://www.mk5golfgti.co.uk/forum/index.php?topic=91363.0) works great.
-
-To simplify that post
-1. 2006: Great! This is the easiest. If you see a post talking about VAG K+can, it should work. (Docs eventually for this type)
-2. 2007+, you're gonna need to follow these guides.
 
 NOTE: There can be exceptions! Follow the part numbers in the post. \
 A VCDS cable or [⚠️removing your cluster⚠️](/cluster-docs/removing-your-cluster) should work to find your current cluster.
