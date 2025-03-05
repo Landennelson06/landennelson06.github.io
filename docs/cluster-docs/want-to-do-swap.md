@@ -8,6 +8,7 @@ So, you want to do the swap? Great! Here's your options
 
 * Have someone do it for you
     * I'd be more than happy to program it for you! Just __Email me__
+        * By having me program your cluster, you're supporting these docs. 
     * Find someone local (pretty hard)
 * Want to do it yourself?
     * That's cool too! That's why these docs are here.
