@@ -1,7 +1,7 @@
 ---
 title: Removing your cluster
 description: Important instructions for removing your cluster
-permalink: /removing-your-cluster/
+permalink: /cluster-docs/removing-your-cluster/
 ---
 ## Q&A
 #### Q:Why is this important?
