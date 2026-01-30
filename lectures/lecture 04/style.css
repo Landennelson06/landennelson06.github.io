@@ -1,0 +1,44 @@
+.intro{
+    background-color: red;
+    width: 100vw;
+    height: 70vh;
+}
+.intro img{
+    width: 100vw;
+    height: 70vh;
+}
+.intro span{
+    width: 50vw;
+    height: 20vh;
+    z-index: 17;
+    position: absolute;
+    left: 25vw;
+    top: 35vh;
+    text-align: center;
+    line-height: 100%;
+    font-size: 10vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.examples{
+    width: 100vw;
+    height: 50vh;
+    background-color: bisque;
+}
+
+.examples .title{
+    font-size: 10vh;
+}
+
+.examples .things{
+    padding-top: 37px;
+    display: flex;
+    justify-content: space-around;
+}
+.examples .things span{
+    font-size: 27vh;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 27vh;
+    text-align: center;
+}
