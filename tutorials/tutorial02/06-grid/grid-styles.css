@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: pink;
+}
+
+.grid-container {
+    height: 100vh;
+    /* you will add addition rules for the container here  */
+    display: grid;
+}
+
+/* create your child rules here:  */
+
+.grid-container * {
+    background-color: red;
+    opacity: .7;
+    border: 3px solid black;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container *:nth-child(even){
+    margin-left: 30%;
+}

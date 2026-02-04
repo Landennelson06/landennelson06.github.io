@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+    row-gap: 2vw;
+    width: 70%;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid grey;
+    border-radius: 7px;
+    column-gap: 5vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
