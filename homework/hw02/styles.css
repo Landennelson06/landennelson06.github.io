@@ -8,7 +8,6 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  position: fixed;
   justify-content: space-between;
   /* background-color: red; */
   padding: 0.5vh 1vw;
