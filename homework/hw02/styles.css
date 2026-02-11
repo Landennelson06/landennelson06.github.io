@@ -16,7 +16,7 @@ nav .title {
   font-size: 35px;
 }
 nav .items {
-  width: 10%;
+  width: 12%;
   /* background-color: orange; */
   display: flex;
   flex-direction: row;
