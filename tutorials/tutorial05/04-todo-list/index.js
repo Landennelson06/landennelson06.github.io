@@ -1,5 +1,5 @@
 function addTodo() {
-    var val = document.querySelector("#todoInput").value;
+    var val = document.querySelector("#todoInput").value.trim();
     var htmlgen = "<li>" + val + "</li>"
     document.querySelector("#todoList").insertAdjacentHTML('beforeend', htmlgen)
     document.querySelector("#todoInput").value = "";
