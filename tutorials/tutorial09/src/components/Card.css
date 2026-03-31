@@ -1,0 +1,12 @@
+.card{
+    background-color: whitesmoke;
+    width: 35vw;
+    height: 45vh;
+    border-radius: 5px;
+    color: black;
+    border: 2px solid gray;
+    padding: 5px 15px;
+}
+.card img{
+    width: 25vw;
+}
