@@ -7,7 +7,7 @@ export default function Stories({ token }) {
       
         async function getStories() {
                 const data = await getDataFromServer(token, "/api/stories");
-                console.log(data);
+                // console.log(data);
                 setStories(data);
             }
     
