@@ -1,0 +1,11 @@
+1. Plant, PlantType. Users isn't in the YAML
+2. Plants -> species is a FK to Plant_type
+3. Optional fields can have no data in a row
+4. npm run seed wipes and recreates the DB, REST API changes parts of the DB.
+5. generate recreates the tables and their columns. Seed adds rows. Without generate, you could try to add rows where columns arent there 
+6. Query params were added, removed, or changed
+7. /api/sneakers?name=running
+8. The data grid lets you see the data. The API docs lets you experiement with requests, and consequently change data
+9. It forces consistency. No "Mint" and "mint", etc. 
+10. api/users, Queryable username, etc. Will need username, pass hash, profle image, etc. 
+

@@ -1,0 +1,8 @@
+node_modules/
+data/
+generated/
+.env
+package-lock.json
+.DS_Store 
+CONTEXT.md
+public/demo/
