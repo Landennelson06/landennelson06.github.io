@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "configPath": "C:\\Users\\Landen\\Documents\\csci344\\final-project\\backend\\api.config.yaml",
+    "generatedAt": "2026-05-05T16:33:06.657Z",
+    "seedDir": "data\\sample-data"
+  },
+  "userResource": {
+    "type": "User",
+    "tableName": "users",
+    "fields": [
+      {
+        "name": "role",
+        "type": "string",
+        "storageType": "string",
+        "required": true,
+        "default": "user",
+        "choices": [
+          "user",
+          "admin"
+        ],
+        "relation": null,
+        "query": {
+          "param": "role",
+          "op": "eq"
+        }
+      }
+    ]
+  },
+  "resources": [
+    {
+      "type": "ServiceStatus",
+      "tableName": "service_statuses",
+      "fileBase": "service-statuses",
+      "path": "/api/statuses",
+      "operations": [
+        "list",
+        "retrieve",
+        "create"
+      ],
+      "shareable": false,
+      "ownershipEnabled": true,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "storageType": "string",
+          "required": true,
+          "relation": null,
+          "query": {
+            "param": "label",
+            "op": "contains"
+          }
+        }
+      ],
+      "permissions": {
+        "list": "public",
+        "retrieve": "public",
+        "create": "user",
+        "update": "owner",
+        "delete": "owner"
+      },
+      "queryFilters": [
+        {
+          "param": "label",
+          "fieldName": "label",
+          "op": "contains",
+          "type": "string",
+          "storageType": "string",
+          "relation": null,
+          "choices": null
+        },
+        {
+          "param": "owner_id",
+          "fieldName": "owner_id",
+          "op": "eq",
+          "type": "integer",
+          "storageType": "integer",
+          "relation": null
+        }
+      ]
+    },
+    {
+      "type": "VehicleService",
+      "tableName": "vehicle_services",
+      "fileBase": "vehicle-services",
+      "path": "/api/services",
+      "operations": [
+        "list",
+        "retrieve",
+        "create",
+        "update",
+        "delete"
+      ],
+      "shareable": false,
+      "ownershipEnabled": true,
+      "fields": [
+        {
+          "name": "status",
+          "type": "ServiceStatus",
+          "storageType": "integer",
+          "required": true,
+          "relation": {
+            "resourceType": "ServiceStatus",
+            "targetField": "id"
+          },
+          "query": {
+            "param": "status",
+            "op": "eq"
+          }
+        },
+        {
+          "name": "vin",
+          "type": "string",
+          "storageType": "string",
+          "required": false,
+          "relation": null,
+          "query": {
+            "param": "vin",
+            "op": "contains"
+          }
+        },
+        {
+          "name": "make_model",
+          "type": "string",
+          "storageType": "string",
+          "required": true,
+          "relation": null,
+          "query": {
+            "param": "make_model",
+            "op": "contains"
+          }
+        },
+        {
+          "name": "service_date",
+          "type": "date",
+          "storageType": "date",
+          "required": false,
+          "relation": null,
+          "query": null
+        },
+        {
+          "name": "mileage",
+          "type": "integer",
+          "storageType": "integer",
+          "required": false,
+          "relation": null,
+          "query": null
+        },
+        {
+          "name": "service_details",
+          "type": "text",
+          "storageType": "text",
+          "required": false,
+          "relation": null,
+          "query": null
+        },
+        {
+          "name": "parts_replaced",
+          "type": "text",
+          "storageType": "text",
+          "required": false,
+          "relation": null,
+          "query": null
+        }
+      ],
+      "permissions": {
+        "list": "public",
+        "retrieve": "public",
+        "create": "user",
+        "update": "owner",
+        "delete": "owner"
+      },
+      "queryFilters": [
+        {
+          "param": "status",
+          "fieldName": "status",
+          "op": "eq",
+          "type": "ServiceStatus",
+          "storageType": "integer",
+          "relation": {
+            "resourceType": "ServiceStatus",
+            "targetField": "id"
+          },
+          "choices": null
+        },
+        {
+          "param": "vin",
+          "fieldName": "vin",
+          "op": "contains",
+          "type": "string",
+          "storageType": "string",
+          "relation": null,
+          "choices": null
+        },
+        {
+          "param": "make_model",
+          "fieldName": "make_model",
+          "op": "contains",
+          "type": "string",
+          "storageType": "string",
+          "relation": null,
+          "choices": null
+        },
+        {
+          "param": "owner_id",
+          "fieldName": "owner_id",
+          "op": "eq",
+          "type": "integer",
+          "storageType": "integer",
+          "relation": null
+        }
+      ]
+    }
+  ]
+}

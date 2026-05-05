@@ -1,0 +1,46 @@
+resources:
+  - type: ServiceStatus
+    path: /api/statuses
+    operations: [list, retrieve, create]
+    fields:
+      - name: label
+        type: string
+        required: true
+        query: true
+    permissions:
+      list: public
+      retrieve: public
+
+  - type: VehicleService
+    path: /api/services
+    operations: [list, retrieve, create, update, delete]
+    fields:
+      - name: status
+        type: ServiceStatus
+        required: true
+        query: true
+      - name: vin
+        type: string
+        required: false
+        query: true
+      - name: make_model
+        type: string
+        required: true
+        query: true
+      - name: service_date
+        type: date
+        required: false
+      - name: mileage
+        type: integer
+        required: false
+      - name: service_details
+        type: text
+        required: false
+      - name: parts_replaced
+        type: text
+    permissions:
+      list: public
+      retrieve: public
+      create: user
+      update: owner
+      delete: owner
