@@ -7,7 +7,6 @@ export default function Example() {
   const [completedCount, setCompletedCount] = useState(0);
 
   useEffect(() => {
-    // Replace these with your real API calls
     getDraft().then((data) => {
       setDraftCount(data.length);
     });
